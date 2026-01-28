@@ -1,0 +1,49 @@
+body{
+            background-image: url('maps.jpg');
+            background-size: cover;
+            min-width: 100vh;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        header{
+            display:flex;
+            align-items: center;
+            gap: 30px;
+            color:white;
+        }
+        .container{
+            width:1200px;
+            height:auto;
+            border:2px solid white;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white
+        }
+        .hello{
+            background-color: black;
+            color:white;
+            height:50px;
+            
+        }
+        .hii{
+            display:flex;
+            gap:20px;
+        }
+        a{
+            text-decoration: none;
+            
+        }
+        select{
+            border:none;
+        }
+        
+        .p{
+            border:2px solid black;
+            border-collapse:collapse;
+
+        }
+        .div1{
+            border:1px solid black;
+            width:40%
+        }
+        

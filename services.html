@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <style>
+            input,label{
+                margin-bottom:15px;
+                font-size:20px
+            }
+            legend{
+                text-align:center;
+                font-size:20px
+            }
+            form{
+                vertical-align:top;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h2>Water supply Request Form</h2>
+        <form >
+            <fieldset style="background-color:rgb(100, 237, 228);width:600px;">
+                
+                <label for="id">Consumer Id:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="number" id="id" name="cid" placeholder="79828325"><br>
+                
+                <label for="request">Type of Request:</label>
+                <input type="text" id="request" name="request" placeholder="water is blocked in our colony"><br>
+                <label for="date">Date:</label>
+                 <input type="date" id="date" name="date"><br>
+                 <label for="address">Address</label><br>
+                <textarea id="address" name="address" rows="3" cols="30"></textarea><br><br>
+                <button type="submit" onclick="hello()">submit</button>
+            </fieldset>
+        </form>
+        <h2>Electricity Issue Form</h2>
+        <form>
+            <fieldset style="background-color:rgb(255, 223, 186);width:600px;">
+                <label for="meter">Meter Number</label>
+                <input type="number" id="meter" placeholder="39697265984243"><br>
+                <label for="issue">Issue   Type:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="issue" placeholder="electricity is not working"><br>
+                <label for="Area">Area:</label>&nbsp;&nbsp;&nbsp;
+                <input type="text" id="Area" placeholder="guntur"><br>
+                <label for="number">Contact Number:</label>
+                <input type="tel" id="number" placeholder="2848237483"><br>
+                <button type="submit" >submit</button>
+                </fieldset>
+            </form>
+            <script>
+                function hello(){
+                    console.log(alert("your form is submitted"));
+                }
+            </script>
+            
+    </body>
+</html

@@ -1,0 +1,63 @@
+<html>
+<head>
+    <style>
+            .div1{
+                background-color: rgb(207, 243, 250);
+                color:rgb(22, 2, 2);
+                padding:10px;
+                margin:20px 300px;
+                align-items:center;
+                text-align:center;
+                border: 2px solid rgb(231, 221, 221);
+                border-radius:7px;
+                font-size:30px;
+                
+            }
+
+            input{
+                height:27px;
+                font-size:24px;
+                border-radius:5px;
+                padding-left:4px;
+                padding-bottom:5px;
+                border:2px solid white;
+                font-weight:20px;
+                color:rgb(71, 68, 68);
+            }
+            .submit{
+                height:33px;
+                width:120px;
+                font-size:24px;
+                margin-top:10px;
+                font-weight:lighter ;
+                color:black;
+            }
+            .submit:hover{
+                background-color: rgb(16, 16, 19);
+                color:white;
+            }
+        </style>
+</head>
+<body>
+    <div class="div1">
+    <form action="registration.php" method="POST">
+                <hr><hr>
+                <fieldset style="border:none;">
+                        <label for="signup">SignUp</label>
+                        <div style="margin-top:6px;" >
+                            <label for="username" style="font-size:large;">Enter username:</label>
+                            <input type="text" name="username" placeholder="username"><br>
+                            <label for="email" style="font-size:large;">Enter email:</label>
+                            <input type="email" name="email" placeholder="abc23@gmail.com"><br>
+                            
+                        <label for="for" style="font-size:large;">Enter password:</label>
+                        <input type="password" name="password" minlength="8" value="Password" required><br>
+<label for="phone" style="font-size:large;">Enter phone number:</label>
+                        <input name="phoneno" type="tel" placeholder="1234567890"  pattern="[0-9]{10}" ><br>
+                        <input type="submit" name="submit"  value="signup" class="submit" onclick="submit1()"><br>
+                    </div>
+                </fieldset>
+            </form>
+    </div>
+        </body>
+</html>
