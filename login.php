@@ -2,8 +2,8 @@
 include "database.php";
 
 <?php
-$client_id = "YOUR_CLIENT_ID";
-$redirect_uri = "http://localhost/itsmypage/oauth2.0/google_auth.php";
+$client_id = "815450743698-5721vl0pnpj8vj80fbhvi77r89gm0h7c.apps.googleusercontent.com";
+$redirect_uri = "http://localhost/php_smartportal/oauth2.0/google_auth.php";
 $scope = "email profile";
 
 $google_login_url = "https://accounts.google.com/o/oauth2/v2/auth?" . http_build_query([
