@@ -48,3 +48,9 @@ purpose:displays commit history in grpahical format
 
 syntax:git show <commit-id>
 purpose:shows detailed information about a specific commit including changes made
+
+syntax:git diff
+purpose:shows differences between working directory and stagging area
+
+syntax:git diff --stagged
+purpose:shows differences between stagged files and last commit
