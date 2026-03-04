@@ -123,3 +123,36 @@ switches braches(modern alternative to chekcout)
 
 git switch -c <new branchname>
 creates a new branch and switches to it
+
+
+7.merge and interpretation commands
+git merge <branchname>
+combines changes from another branch into the current branch
+git merge develop
+
+git merge --no-ff <branchname>
+froces git to create a merge commit even if fast-forward is possible
+git merge --no-ff branch1
+
+8.remote repository commands
+A.git remote 
+shows the names of remote repositories linked to your project
+git remote
+
+B.git remote -v
+shows remote names along with their URLs(fetch and push)
+
+C.git remote add <name><url>
+adds a new remote repository
+git remote add origin https://github.com/prasanna-n221001/php_smartportal
+
+D.git remote remove <name>
+removes a remote repository
+git remote remove origin
+
+E.git fetch
+downloads changes from remote without merging
+git fetch origin
+
+F.git fethc -all 
+fethces updates from all remotes
