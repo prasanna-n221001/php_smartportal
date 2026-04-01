@@ -1,6 +1,6 @@
 <?php 
 session_start(); 
-require __DIR__ . '/config/db.php'; 
+require __DIR__ . '/config/database.php'; 
 $email = $_POST['email'] ?? ''; 
 $password = $_POST['password'] ?? ''; 
 if (!$email || !$password) { 
